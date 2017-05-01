@@ -1,0 +1,101 @@
+[
+	{
+		"palyerName": "Zaheer Khan",
+		"image": "img/player/zaheer.png",
+		"Role": "Bowler",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Left-arm medium fast",
+		"Nationality":	"Indian",
+		"Nickname"	: "Zak"
+	},
+	{
+		"palyerName": "Gowtham Gambir",
+		"image": "img/player/gambir.png",
+		"Role": "Batting",
+		"BattingStyle":	"left-handed",
+		"BowlingStyle"	:"left-arm spin",
+		"Nationality":	"Indian",
+		"Nickname"	: "Gambir"
+	},
+	{
+		"palyerName": "MaxWell",
+		"image": "img/player/maxwell.png",
+		"Role": "Batting",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm spin",
+		"Nationality":	"Australian",
+		"Nickname"	: "Max"
+	},
+	{
+		"palyerName": "Suresh Raina",
+		"image": "img/player/raina.png",
+		"Role": "Batting",
+		"BattingStyle":	"left-handed",
+		"BowlingStyle"	:"left-arm spin",
+		"Nationality":	"Indian",
+		"Nickname"	: "Raina"
+	},
+	{
+		"palyerName": "Rohit Sharma",
+		"image": "img/player/sharma.png",
+		"Role": "Batting",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm off-spin",
+		"Nationality":	"Indian",
+		"Nickname"	: "Rohit"
+	},
+	{
+		"palyerName": "Jasprit Bumrah",
+		"image": "img/player/Bumrah.png",
+		"Role": "Bowler",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm medium fast",
+		"Nationality":	"Indian",
+		"Nickname"	: "Jasprit"
+	},
+	{
+		"palyerName": "Steve Smith",
+		"image": "img/player/smith.png",
+		"Role": "Bowler",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm leg spin",
+		"Nationality":	"Australian",
+		"Nickname"	: "Smith"
+	},
+	{
+		"palyerName": "MS Dhoni",
+		"image": "img/player/dohni.png",
+		"Role": "Wicketkeeper batsman",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm medium",
+		"Nationality":	"Indian",
+		"Nickname"	: "Thala"
+	},
+	{
+		"palyerName": "Virat Kohli",
+		"image": "img/player/kohli.png",
+		"Role": "Batsman",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm medium",
+		"Nationality":	"Indian",
+		"Nickname"	: "Kohli"
+	},
+	{
+		"palyerName": "Yuvraj Singh",
+		"image": "img/player/yv.png",
+		"Role": "All-rounder",
+		"BattingStyle":	"Left-handed",
+		"BowlingStyle"	:"Left-arm orthodox spin",
+		"Nationality":	"Indian",
+		"Nickname"	: "Yuvraj"
+	},
+	{
+		"palyerName": "AB de Villiers",
+		"image": "img/player/Villiers.png",
+		"Role": "Wicketkeeper batsman",
+		"BattingStyle":	"Right-handed",
+		"BowlingStyle"	:"Right-arm medium",
+		"Nationality":	"South African",
+		"Nickname"	: "360degree"
+	}
+]

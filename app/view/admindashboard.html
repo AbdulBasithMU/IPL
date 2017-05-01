@@ -1,0 +1,59 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IPL 2017</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+                        <span class="btn btn-info" ng-click="logout()">Logout</span>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3>Player Details</h3>
+        </div>
+        <form ng-submit="submit()">
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <img ng-src="{{modalData.image}}" height="250" width="250"/>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">Role :<span>{{modalData.Role}}</span></div>
+                    <div class="row">Batting Style: <span>{{modalData.BattingStyle}}</span></div>
+                    <div class="row">Bowling Style : <span>{{modalData.BowlingStyle}}</span></div>
+                    <div class="row">Nationality: <span>{{modalData.Nationality}}</span></div>
+                    <div class="row">Nickname : <span>{{modalData.Nickname}}</span></div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+          </div>
+        </form>
+    </script>
+	<div class="col-md-3" ng-repeat="data in value">
+		<div class="panel panel-primary">
+			<div class="panel-heading" ng-bind="data.palyerName"></div>
+			<div class="panel-body">
+				<img ng-src="{{data.image}}" height="250" width="250"/>
+				<br>
+				<br>
+				<div class="row">
+					<div class="col-md-offset-3 col-md-9">
+						<button class="btn btn-primary" ng-click="open(data)">View Profile</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
