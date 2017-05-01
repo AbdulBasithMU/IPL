@@ -1,0 +1,37 @@
+.green{
+    color: green;
+}
+.paddingleft0{
+    padding-left: 0px;
+}
+.marginleft{
+	margin-left: 540px;
+}
+.containerimg{
+	background-color: #28377c;
+}
+.login-container{
+    position: relative;
+    width: 300px;
+    margin: 168px auto;
+    padding: 35px 40px 40px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+
+#output.alert-success{
+    background: rgb(25, 204, 25);
+}
+
+#output.alert-danger{
+    background: rgb(228, 105, 105);
+}
