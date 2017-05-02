@@ -38,14 +38,17 @@
                     <div class="row">Bowling Style : <span>{{modalData.BowlingStyle}}</span></div>
                     <div class="row">Nationality: <span>{{modalData.Nationality}}</span></div>
                     <div class="row">Nickname : <span>{{modalData.Nickname}}</span></div>
-                    <div class="row">
+                    <div class="row">Amount : <span>{{modalData.amount}}</span></div>
+                    <div class="row" ng-if="modalData.buyerDetails === ''">
+                         <input type="text" ng-model="indexValue" ng-show="false">
                         <div class="paddingleft0 col-md-2"><span class="btn btn-primary glyphicon glyphicon-plus" ng-click="add(valueinput)"></span></div>
                         <div class="col-md-4"><input class="form-control" type="text" ng-readonly="true" ng-model="valueinput"></div>
                         <div class="paddingleft0 col-md-2"><span class="btn btn-primary glyphicon glyphicon-minus" ng-click="minus(valueinput)"></span></div>
                     </div>
                     <br/>
-                    <div class="row"><span class="btn btn-primary" ng-click="bitPlaced(valueinput)">Bit Placed</span></div>
-                    <div class="row" ng-hide="bitPlaced"><span class="green help-block"><b><i>Placed Bit!</i></b></span></div>
+                    <div class="row" ng-if="modalData.buyerDetails === ''"><span class="btn btn-primary" ng-click="bitPlaced(valueinput)">Bit Placed</span></div>
+                    <div class="row" ng-hide="bitPlaced" ng-if="modalData.buyerDetails === ''"><span class="green help-block"><b><i>Placed Bit!</i></b></span></div>
+                    <div class="row"><span class="green help-block" ng-if="modalData.buyerDetails !== ''"><b><i>This Player is Already Soldout by {{modalData.buyerDetails}}!</i></b></span></div>
                 </div>
             </div>
           </div>
@@ -54,7 +57,7 @@
           </div>
         </form>
     </script>
-	<div class="col-md-3" ng-repeat="data in value | filter:searchText">
+	<div class="col-md-3" ng-repeat="data in value | filter:searchText track by $index ">
 		<div class="panel panel-primary">
 			<div class="panel-heading" ng-bind="data.palyerName"></div>
 			<div class="panel-body">
@@ -63,7 +66,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-offset-3 col-md-9">
-						<button class="btn btn-primary" ng-click="open(data)">View Profile</button>
+						<button class="btn btn-primary" ng-click="open(data,$index)">View Profile</button>
 					</div>
 				</div>
 			</div>

@@ -33,6 +33,15 @@
                     <div class="row">Bowling Style : <span>{{modalData.BowlingStyle}}</span></div>
                     <div class="row">Nationality: <span>{{modalData.Nationality}}</span></div>
                     <div class="row">Nickname : <span>{{modalData.Nickname}}</span></div>
+                    <div class="row">
+                      <div class="form-group">
+                        <label for="email">Enter Amount:</label>
+                        <input type="text" ng-model="indexValue" ng-show="false">
+                        <input class="form-control" type="number" ng-model="setAmountValue">
+                      </div>
+                    </div>  
+                    <br>
+                    <div class="row"><span class="btn btn-primary" ng-click="setAmount(setAmountValue,indexValue)">Set Amount</span></div>
                 </div>
             </div>
           </div>
@@ -41,7 +50,7 @@
           </div>
         </form>
     </script>
-	<div class="col-md-3" ng-repeat="data in value">
+	<div class="col-md-3" ng-repeat="data in value track by $index">
 		<div class="panel panel-primary">
 			<div class="panel-heading" ng-bind="data.palyerName"></div>
 			<div class="panel-body">
@@ -50,7 +59,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-offset-3 col-md-9">
-						<button class="btn btn-primary" ng-click="open(data)">View Profile</button>
+						<button class="btn btn-primary" ng-click="open(data,value,$index)">View Profile</button>
 					</div>
 				</div>
 			</div>

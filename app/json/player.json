@@ -6,7 +6,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Left-arm medium fast",
 		"Nationality":	"Indian",
-		"Nickname"	: "Zak"
+		"Nickname"	: "Zak",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Gowtham Gambir",
@@ -15,7 +17,9 @@
 		"BattingStyle":	"left-handed",
 		"BowlingStyle"	:"left-arm spin",
 		"Nationality":	"Indian",
-		"Nickname"	: "Gambir"
+		"Nickname"	: "Gambir",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "MaxWell",
@@ -24,7 +28,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm spin",
 		"Nationality":	"Australian",
-		"Nickname"	: "Max"
+		"Nickname"	: "Max",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Suresh Raina",
@@ -33,7 +39,9 @@
 		"BattingStyle":	"left-handed",
 		"BowlingStyle"	:"left-arm spin",
 		"Nationality":	"Indian",
-		"Nickname"	: "Raina"
+		"Nickname"	: "Raina",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Rohit Sharma",
@@ -42,7 +50,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm off-spin",
 		"Nationality":	"Indian",
-		"Nickname"	: "Rohit"
+		"Nickname"	: "Rohit",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Jasprit Bumrah",
@@ -51,7 +61,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm medium fast",
 		"Nationality":	"Indian",
-		"Nickname"	: "Jasprit"
+		"Nickname"	: "Jasprit",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Steve Smith",
@@ -60,7 +72,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm leg spin",
 		"Nationality":	"Australian",
-		"Nickname"	: "Smith"
+		"Nickname"	: "Smith",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "MS Dhoni",
@@ -69,7 +83,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm medium",
 		"Nationality":	"Indian",
-		"Nickname"	: "Thala"
+		"Nickname"	: "Thala",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Virat Kohli",
@@ -78,7 +94,9 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm medium",
 		"Nationality":	"Indian",
-		"Nickname"	: "Kohli"
+		"Nickname"	: "Kohli",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "Yuvraj Singh",
@@ -87,7 +105,9 @@
 		"BattingStyle":	"Left-handed",
 		"BowlingStyle"	:"Left-arm orthodox spin",
 		"Nationality":	"Indian",
-		"Nickname"	: "Yuvraj"
+		"Nickname"	: "Yuvraj",
+		"amount": 0,
+		"buyerDetails": ""
 	},
 	{
 		"palyerName": "AB de Villiers",
@@ -96,6 +116,8 @@
 		"BattingStyle":	"Right-handed",
 		"BowlingStyle"	:"Right-arm medium",
 		"Nationality":	"South African",
-		"Nickname"	: "360degree"
+		"Nickname"	: "360degree",
+		"amount": 0,
+		"buyerDetails": ""
 	}
 ]

@@ -1,0 +1,45 @@
+
+
+<div class="container-fluid">
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IPL 2017</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="row">
+            <span class="btn btn-info" ng-click="logout()">Logout</span>
+            <span class="btn btn-info" ng-click="buy()">Buy Again</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="alert alert-success">
+	  <strong>Success!</strong> {{buyerDetails.buyerDetails}} buy this Player.
+	</div>
+	<div class="panel panel-success">
+		<div class="panel-heading">Sucess</div>
+		<div class="panel-body">
+			<div class="col-md-6">
+				<img ng-src="{{buyerDetails.image}}" height="250" width="250"/>
+			</div>
+			<div class="col-md-6">
+				    <div class="row">Role :<span>{{buyerDetails.Role}}</span></div>
+                    <div class="row">Batting Style: <span>{{buyerDetails.BattingStyle}}</span></div>
+                    <div class="row">Bowling Style : <span>{{buyerDetails.BowlingStyle}}</span></div>
+                    <div class="row">Nationality: <span>{{buyerDetails.Nationality}}</span></div>
+                    <div class="row">Nickname : <span>{{buyerDetails.Nickname}}</span></div>
+                    <div class="row">Amount : <span>{{buyerDetails.amount}}</span></div>
+                    <div class="row">buyerDetails : <span><b>{{buyerDetails.buyerDetails}}</b></span></div>
+			</div>
+		</div>
+	</div>
+</div>

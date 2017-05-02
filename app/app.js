@@ -37,4 +37,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$qProvider' ,function($stat
                   controller: 'userdashboardController'
             })
 
+            .state('buyerDetails', {
+                  url: "/buyerDetails",
+                  templateUrl: 'app/view/buyerDetails.html',
+                  controller: 'buyerDetailsController'
+            })
+
 }]);

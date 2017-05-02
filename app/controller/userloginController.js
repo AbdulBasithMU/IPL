@@ -5,6 +5,7 @@ app.controller('userloginController',function($scope,$state,$http){
 			var keepGoing = true;
 			angular.forEach(value, function(data){
 				if(data.email === $scope.email && data.password === $scope.password){
+					localStorage.setItem("userName", $scope.email);
 					$state.go("userdashboard");
 					keepGoing = false;
 				}
